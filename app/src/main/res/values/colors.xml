@@ -4,4 +4,9 @@
     <color name="blue">#0000FF</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="teal"> #008080</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200"> #80CBC4</color>
+    <color name="purple_500">#9C27B0</color>
+    <color name="teal_700">#00796B</color>
 </resources>
