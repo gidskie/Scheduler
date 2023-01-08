@@ -14,10 +14,10 @@ class CalendarAdapter extends RecyclerView.Adapter<CalendarViewHolder>
     private final ArrayList<String> daysOfMonth;
     private final OnItemListener onItemListener;
 
-    public CalendarAdapter(ArrayList<String> daysOfMonth, OnItemListener onItemListener, OnItemListener onItemListener1)
+    public CalendarAdapter(ArrayList<String> daysOfMonth, OnItemListener onItemListener)
     {
         this.daysOfMonth = daysOfMonth;
-        this.onItemListener = onItemListener1;
+        this.onItemListener = onItemListener;
     }
 
     @NonNull
@@ -45,10 +45,6 @@ class CalendarAdapter extends RecyclerView.Adapter<CalendarViewHolder>
 
     public interface  OnItemListener
     {
-        void onItemClick(int position, String dayText);
-    }
-
-    public interface OnItemListeners {
         void onItemClick(int position, String dayText);
     }
 }
